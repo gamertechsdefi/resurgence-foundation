@@ -106,7 +106,7 @@ export default function Home() {
             in the lives of those affected by disasters and socio-economic challenges. With a deep sense of empathy
             and innovation, we strive to bridge the gap between urgent relief efforts and long-term sustainability.
             Our team is dedicated to not only providing life-saving assistance during times of crisis but also
-            tackling one of Africa's greatest challenges—the lack of access to essential technology.</span>
+            tackling one of Africa greatest challenges—the lack of access to essential technology.</span>
             <span>Through a combination of hands-on relief work and technological empowerment, we aim to uplift
             communities by delivering solutions that address immediate needs while laying the foundation for
             future growth and resilience.</span></p>
