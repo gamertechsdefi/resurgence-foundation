@@ -112,8 +112,8 @@ export default function Home() {
             future growth and resilience.</span></p>
         </div>
 
-        <div className="flex justify-end py-16 px-8 md:px-16 bg-neutral-300">
-          <div className="md:w-[50%]">
+        <div className="flex justify-end py-16 px-8 md:px-16 bg-gradient-to-b from-neutral-600 to-neutral-900">
+          <div className="md:w-[50%] text-white">
           <h1 className="font-bold text-3xl pb-4">Our Mission</h1>
           <p className="flex flex-col gap-2">
             <span>Our mission is to extend a helping hand to those in need during times of disaster, providing
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="py-16 px-8 md:px-16 bg-neutral-300">
+        <div className="py-16 px-8 md:px-16 bg-gradient-to-b from-neutral-600 to-neutral-900 text-white">
           <h1 className="font-bold text-3xl pb-4">Our First Project</h1>
           <p className="pb-4">
             We are excited to launch our first project aimed at providing essential support to a local 
@@ -156,7 +156,7 @@ export default function Home() {
             to basic necessities, including food, clothing, healthcare, education, and a safe, nurturing 
             environment.
           </p>
-          <button className="bg-neutral-900 text-white rounded-lg p-4">Learn more</button>
+          <button className="bg-neutral-100 text-black rounded-lg font-bold p-4">Learn more</button>
           <div>
 
           </div>
