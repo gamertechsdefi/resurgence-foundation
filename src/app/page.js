@@ -219,7 +219,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="md:px-16 my-16 mx-8 p-8 md:p-16 border-2 border-neutral-700 rounded-3xl">
+        <section className="md:px-16 my-16 mx-4 p-2 md:p-16 border-2 border-neutral-700 rounded-3xl">
           <h1 className="text-2xl font-bold">First Charity Donation</h1>
           <p className="pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
