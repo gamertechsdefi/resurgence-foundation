@@ -20,6 +20,7 @@ import p11 from "/public/images/first-event/11.jpg";
 import p12 from "/public/images/first-event/12.jpg";
 import p13 from "/public/images/first-event/13.jpg";
 import p14 from "/public/images/first-event/14.jpg";
+import Header from "@/components/Header";
 
 const images = [
   { src: p1, alt: "JavaScript logo" },
@@ -62,70 +63,8 @@ export default function Home() {
     }
   }, [controls]);
   return (
-    <div style={{ fontFamily: 'Montserrat, sans-serif' }} className="bg-neutral-900 text-white">
-      <header className="">
-        <nav className="bg-white shadow-md">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between p-4 items-center">
-              <div className="flex">
-                <Image src="/images/rf-logo.png" width={50} height={50} alt="rf-logo" />
-              </div>
-              <div className="hidden md:flex space-x-8 md:items-center">
-                <Link href="/">Home</Link>
-                <Link href="/">About us</Link>
-                <Link href="/">Get involved</Link>
-                <Link href="/">Projects</Link>
-                <Link href="/" className="bg-neutral-900 font-bold text-white p-2 rounded-lg">Donate</Link>
-              </div>
-              <div className="md:hidden">
-                <button
-                  onClick={toggleMenu}
-                  className="text-gray-800 hover:text-neutral-700 focus:outline-none"
-                >
-                  <svg
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          {/* Mobile Menu */}
-          {isOpen && (
-            <div className="md:hidden">
-              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
-                <Link href="/" className="block text-neutral-900 hover:bg-gray-200 rounded-md px-3 py-2">
-                  Home
-                </Link>
-                <Link href="/" className="block text-neutral-900 hover:bg-gray-200 rounded-md px-3 py-2">
-                  About us
-
-                </Link>
-                <Link href="/" className="block text-neutral-900 hover:bg-gray-200 rounded-md px-3 py-2">
-                  Get involved
-                </Link>
-                <Link href="/" className="block text-neutral-900 hover:bg-gray-200 rounded-md px-3 py-2">
-                  Projects
-                </Link>
-                <Link href="/" className="block text-neutral-900 font-bold hover:bg-gray-200 rounded-md px-3 py-2">
-                  Donate
-                </Link>
-              </div>
-            </div>
-          )}
-        </nav>
-      </header>
+    <div className="grayscale bg-neutral-900 text-white">
+      <Header />
       <main>
         <div className="h-screen"
           style={{
@@ -167,7 +106,7 @@ export default function Home() {
           {/* Existing content */}
           <div className="relative z-10">
             <h1 className="font-bold text-3xl pb-4">Who we are</h1>
-            At Resurgence Foundation, we are a humanitarian organization committed to making a lasting
+            <p>At Resurgence Foundation, we are a humanitarian organization committed to making a lasting
             impact in the lives of those affected by disasters and socio-economic challenges. With a
             deep sense of empathy and innovation, we strive to bridge the gap between urgent relief
             efforts and long-term sustainability. Our team is dedicated to not only providing
@@ -175,7 +114,7 @@ export default function Home() {
             challenges—the lack of access to essential technology.
             Through a combination of hands-on relief work and technological empowerment, we aim to
             uplift communities by delivering solutions that address immediate needs while laying the
-            foundation for future growth and resilience.
+            foundation for future growth and resilience.</p>
           </div>
 
           <div className="w-full md:w-[32rem] aspect-square relative z-10">
