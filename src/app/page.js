@@ -82,7 +82,7 @@ export default function Home() {
                 sustainable futures—one person and one community at a time. </p>
               <div className="flex gap-8">
                 <Link className="bg-neutral-800 p-4 rounded-lg shadow-sm font-bold" href="">Donate</Link>
-                <Link className="bg-[#f9f9f9] text-black p-4 rounded-lg shadow-sm font-bold" href="https://bit.ly/4hfhDYq">Check event </Link>
+                <Link className="bg-[#f9f9f9] text-black p-4 rounded-lg shadow-sm font-bold" href="/involve">Get involved with us</Link>
               </div>
             </div>
           </div>
